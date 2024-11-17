@@ -11,6 +11,8 @@
 		54B38B492CE9FE9400343C07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B38B482CE9FE9400343C07 /* ContentView.swift */; };
 		54B38B4B2CE9FE9600343C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B38B4A2CE9FE9600343C07 /* Assets.xcassets */; };
 		54B38B4E2CE9FE9600343C07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B38B4D2CE9FE9600343C07 /* Preview Assets.xcassets */; };
+		54B38B5B2CE9FECE00343C07 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B38B582CE9FECE00343C07 /* CardView.swift */; };
+		54B38B5C2CE9FECE00343C07 /* Swipe3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B38B5A2CE9FECE00343C07 /* Swipe3DView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		54B38B482CE9FE9400343C07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54B38B4A2CE9FE9600343C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54B38B4D2CE9FE9600343C07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54B38B582CE9FECE00343C07 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		54B38B5A2CE9FECE00343C07 /* Swipe3DView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swipe3DView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		54B38B452CE9FE9400343C07 /* ImageSwipe3D */ = {
 			isa = PBXGroup;
 			children = (
+				54B38B562CE9FECE00343C07 /* Views */,
 				54B38B462CE9FE9400343C07 /* ImageSwipe3DApp.swift */,
 				54B38B482CE9FE9400343C07 /* ContentView.swift */,
 				54B38B4A2CE9FE9600343C07 /* Assets.xcassets */,
@@ -65,6 +70,31 @@
 				54B38B4D2CE9FE9600343C07 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54B38B562CE9FECE00343C07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54B38B572CE9FECE00343C07 /* Components */,
+				54B38B592CE9FECE00343C07 /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54B38B572CE9FECE00343C07 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				54B38B582CE9FECE00343C07 /* CardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		54B38B592CE9FECE00343C07 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				54B38B5A2CE9FECE00343C07 /* Swipe3DView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54B38B492CE9FE9400343C07 /* ContentView.swift in Sources */,
+				54B38B5B2CE9FECE00343C07 /* CardView.swift in Sources */,
+				54B38B5C2CE9FECE00343C07 /* Swipe3DView.swift in Sources */,
 				54B38B472CE9FE9400343C07 /* ImageSwipe3DApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
